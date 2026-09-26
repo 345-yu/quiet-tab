@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Quiet Tab",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "A new tab page that shows only your own wallpaper. No permissions, no scripts, no network requests.",
+    "description": "Extension description"
+  }
+}

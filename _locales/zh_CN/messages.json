@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "静页",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "新标签页只显示你自己的壁纸。无权限、无脚本、不联网。",
+    "description": "扩展描述"
+  }
+}

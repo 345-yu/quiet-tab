@@ -1,0 +1,15 @@
+# Your wallpaper stays on your machine: never commit it
+# (it may be someone else's artwork).
+background.jpg
+background.jpeg
+background.png
+background.webp
+
+# Packed extension output
+*.crx
+*.pem
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store

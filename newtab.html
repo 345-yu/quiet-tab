@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Tab title. Change it to your language if you like, e.g. 新标签页 -->
+  <title>New Tab</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    :root {
+      /* Shown when no wallpaper is present, and before the wallpaper loads */
+      --fallback-color: #ffffff;
+      /* Which part of the wallpaper stays visible when the window is cropped,
+         e.g. "30% 50%" keeps a subject on the left third in view */
+      --focus: center;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --fallback-color: #202124; }
+    }
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    body {
+      background-color: var(--fallback-color);
+      /* Put ONE of these files next to this page. Missing files are simply
+         skipped, so no script is needed. If several exist, the first wins. */
+      background-image:
+        url("background.webp"),
+        url("background.png"),
+        url("background.jpg");
+      background-size: cover;
+      background-position: var(--focus);
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body></body>
+</html>
